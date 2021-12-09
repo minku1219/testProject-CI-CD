@@ -5,5 +5,5 @@ services:
         build: .
         container_name: ashuc1
         ports:
-            - 1234:80
+            - 5654:80
         restart: always
