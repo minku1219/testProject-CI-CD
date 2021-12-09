@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    ashuproject1:
+        image: ashuhttpd:v0001
+        build: .
+        container_name: ashuc1
+        ports:
+            - 1234:80
+        restart: always
