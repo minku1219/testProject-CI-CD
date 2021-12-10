@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-    minkuproject1:
-        image: minkuhttpd:v0001
+    minkuproject2:
+        image: minkuhttpdNotes:v0001
         build: .
-        container_name: minkuc1
+        container_name: minkuc2
         ports:
             - 2365:80
         restart: always
