@@ -1,7 +1,7 @@
 version: '3.8'
 services:
     minkuproject2:
-        image: minkuhttpdNotes:v0001
+        image: minkuhttpdnotes:v0001
         build: .
         container_name: minkuc2
         ports:
