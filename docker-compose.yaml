@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-    ashuproject1:
-        image: ashuhttpd:v0001
+    minkuproject1:
+        image: minkuhttpd:v0001
         build: .
-        container_name: ashuc1
+        container_name: minkuc1
         ports:
-            - 5654:80
+            - 1219:80
         restart: always
