@@ -3,7 +3,7 @@ services:
     minkuproject2:
         image: minkuhttpdnotes:v0001
         build: .
-        container_name: minkuc2
+        container_name: minkucnt
         ports:
             - 2365:80
         restart: always
